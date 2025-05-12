@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+
+  }
+  .fundo{
+    background-color: rgb(47, 65, 84);
+    height: 100vh;
+    color:#fff;
+    font-family: arial, helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+       height: 100vh;
+      margin: 100 px auto 0;
+
+}
+.calculadora{
+  position: absolute;
+  background-color:rgba(68, 85, 102) ;
+  top: 30%;
+  left: 50%;
+  margin: 80px auto 20px;
+  border-radius: 15px;
+  padding: 15px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .botao{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(88, 104, 119);
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+
+  }
+  .botao1{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(230, 126, 34);
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+
+  }
+  .botao2{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(199, 78, 69);
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+
+  }
+  
+  .botao:hover{
+    background-color: rgb(47, 65, 84);
+  }
+
+  .botao1:hover{
+    background-color: rgb(211, 116, 34);
+  }
+
+  .botao2:hover{
+    background-color: rgb(180, 65, 57);
+  }
+
+  #resultado{
+    background-color: rgb(13, 17, 21);
+    width: 210px;
+    height:30px;
+    margin:5px;
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    border-radius: 6px;
+    padding:5px;
+  }
